@@ -1,7 +1,9 @@
+import Layout from "./components/Layout/Layout";
+
 function App() {
   return (
     <div>
-      <h1 className="text-success">Welcome Yash</h1>
+      <Layout />
     </div>
   );
 }
