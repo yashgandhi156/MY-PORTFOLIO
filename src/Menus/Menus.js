@@ -7,7 +7,6 @@ import {
   FcBiotech,
   FcReadingEbook,
   FcVideoProjector,
-  FcVoicePresentation,
   FcBusinessContact,
 } from "react-icons/fc";
 const Menus = ({ toggle }) => {
@@ -32,24 +31,20 @@ const Menus = ({ toggle }) => {
                 About
               </div>
               <div className="nav-link">
-                <FcPortraitMode />
-                Work Exprience
+                <FcReadingEbook />
+                Education
               </div>
               <div className="nav-link">
                 <FcBiotech />
                 Tech Stack
               </div>
               <div className="nav-link">
-                <FcReadingEbook />
-                Education
-              </div>
-              <div className="nav-link">
                 <FcVideoProjector />
                 Projects
               </div>
               <div className="nav-link">
-                <FcVoicePresentation />
-                Testimonial
+                <FcPortraitMode />
+                Work Exprience
               </div>
               <div className="nav-link">
                 <FcBusinessContact />
@@ -69,19 +64,16 @@ const Menus = ({ toggle }) => {
                 <FcAbout title="About" />
               </div>
               <div className="nav-link">
-                <FcPortraitMode title="Work Exprience" />
+                <FcReadingEbook title="Education" />
               </div>
               <div className="nav-link">
                 <FcBiotech title="Tech Stack" />
               </div>
               <div className="nav-link">
-                <FcReadingEbook title="Education" />
-              </div>
-              <div className="nav-link">
                 <FcVideoProjector title=" Projects" />
               </div>
               <div className="nav-link">
-                <FcVoicePresentation title="Testimonial" />
+                <FcPortraitMode title="Work Exprience" />
               </div>
               <div className="nav-link">
                 <FcBusinessContact title="Contact" />
