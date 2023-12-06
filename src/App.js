@@ -5,10 +5,11 @@ import Education from "./pages/Education/Education";
 import Project from "./pages/Projects/Project";
 import Techstack from "./pages/Techstack/Techstack";
 import WorkExp from "./pages/workExp/WorkExp";
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
-    <div>
+    <>
       <Layout />
       <div className="container">
         <About />
@@ -21,7 +22,12 @@ function App() {
       <div className="footer pb-3 ms-3">
         <h4 className="text-center">Made With 😍 Yash Gandhi &copy; 2023</h4>
       </div>
-    </div>
+      <ScrollToTop
+        smooth
+        color="#f30f69"
+        style={{ backgroundColor: "#1e1e2c", borderRadius: "80px" }}
+      />
+    </>
   );
 }
 
